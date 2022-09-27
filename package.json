@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
-	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"name": "obsidian-lmc",
+	"version": "0.1.0",
+	"description": "A plugin to highlight Little Man Computer (LMC) code.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
