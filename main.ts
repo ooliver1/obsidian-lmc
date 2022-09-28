@@ -49,7 +49,7 @@ function LMCFormatter(_: CodeMirror.EditorConfiguration): CodeMirror.Mode<any> {
     const VARIABLE_REGEX = /^\w+(?=\s*DAT)/i;
     const DIGIT_REGEX = /\d+/;
 
-    // Numbers are already matched as they are above in the conditions.
+    const COMMENT_REGEX = /\S+/;
     const WORD_REGEX = /\w+/;
     const NEWLINE_REGEX = /\n/;
 
@@ -100,7 +100,7 @@ function LMCFormatter(_: CodeMirror.EditorConfiguration): CodeMirror.Mode<any> {
             (previousLinkable && stream.match(WORD_REGEX))
         ) {
             type = "link";
-        } else if (stream.match(WORD_REGEX)) {
+        } else if (stream.match(COMMENT_REGEX)) {
             type = "comment";
             stream.skipToEnd();
         } else {
