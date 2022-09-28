@@ -1,4 +1,3 @@
-import { StreamLanguage } from "@codemirror/language";
 import { Plugin } from "obsidian";
 
 function LMCFormatter(_: CodeMirror.EditorConfiguration): CodeMirror.Mode<any> {

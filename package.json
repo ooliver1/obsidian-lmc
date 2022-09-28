@@ -19,14 +19,12 @@
 		"@typescript-eslint/eslint-plugin": "5.29.0",
 		"@typescript-eslint/parser": "5.29.0",
 		"builtin-modules": "3.3.0",
-		"codemirror": "^6.0.1",
-		"esbuild": "0.14.47",
+		"eslint": "^8.24.0",
 		"obsidian": "latest",
 		"rollup": "^2.79.1",
+		"rollup-plugin-terser": "^7.0.2",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
 	},
-	"dependencies": {
-		"@codemirror/language": "^6.2.1"
-	}
+	"dependencies": {}
 }
