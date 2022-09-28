@@ -17,6 +17,7 @@ esbuild
         },
         entryPoints: ["main.ts"],
         bundle: true,
+        minify: true,
         external: [
             "obsidian",
             "electron",
@@ -40,5 +41,6 @@ esbuild
         sourcemap: prod ? false : "inline",
         treeShaking: true,
         outfile: "main.js",
+        inject,
     })
     .catch(() => process.exit(1));
