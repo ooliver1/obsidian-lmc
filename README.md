@@ -6,15 +6,7 @@ An [Obsidian](https://obsidian.md) plugin to highlight Little Man Computer (LMC)
 
 As this plugin is not on the community list, manual installation is required.
 
-> **Note**
-> This requires [`Git`](https://git-scm.com) to be installed.
-
-1. 
-```bash
-# cd into your vault directory
-cd .obsidian/plugins
-git clone https://github.com/ooliver1/obsidian-lmc
-```
-
-2. Reload obsidian.
-3. Enable the plugin in `Community Plugins` settings.
+1. Create the `obsidian-lmc` directory inside your vault's `.obsidian/plugins` directory.
+2. Copy `manifest.json` and `main.js` from [The latest release](https://github.com/andrewchambers/obsidian-lmc/releases/latest) into `.obsidian/plugins/obsidian-lmc`.
+3. Reload obsidian.
+4. Enable the plugin in `Community Plugins` settings.
