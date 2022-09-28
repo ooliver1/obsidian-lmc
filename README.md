@@ -6,7 +6,7 @@ An [Obsidian](https://obsidian.md) plugin to highlight Little Man Computer (LMC)
 
 As this plugin is not on the community list, manual installation is required.
 
-> note
+> **Note**
 > This requires [`Git`](https://git-scm.com) to be installed.
 
 1. 
