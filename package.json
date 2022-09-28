@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-lmc",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A plugin to highlight Little Man Computer (LMC) code.",
 	"main": "main.js",
 	"scripts": {
